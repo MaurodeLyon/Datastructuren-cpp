@@ -13,11 +13,23 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Source Files\ComponentEngine">
-      <UniqueIdentifier>{b510d76b-bfca-486c-a5f4-e0a957c78236}</UniqueIdentifier>
+    <Filter Include="Header Files\ComponentEngine">
+      <UniqueIdentifier>{873938b6-36cf-4bd9-bf20-3107b9546d15}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\ComponentEngine\Entity">
-      <UniqueIdentifier>{71a44f38-6f15-46f3-9d7d-0d44a01269d3}</UniqueIdentifier>
+    <Filter Include="Header Files\GameEngine">
+      <UniqueIdentifier>{1eb6c0bf-01ee-406e-9bd1-a90ee461825f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DisplayEngine">
+      <UniqueIdentifier>{91252202-7a9f-49e1-8d4b-8bbc6ace4ff5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ComponentEngine\Input">
+      <UniqueIdentifier>{88ffad2d-fd4f-42b6-beac-f2a649b029f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ComponentEngine\Physics">
+      <UniqueIdentifier>{340fcddc-c6b3-4f29-b403-c74049ba9704}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ComponentEngine\Graphics">
+      <UniqueIdentifier>{89f85bcb-01ec-489a-8e89-0659f8f45eb3}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -30,11 +42,32 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ComponentManager.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Entity.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\ComponentEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Header Files\GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Header Files\DisplayEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="InputComponent.h">
+      <Filter>Header Files\ComponentEngine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerInputComponent.h">
+      <Filter>Header Files\ComponentEngine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="DemoInputComponent.h">
+      <Filter>Header Files\ComponentEngine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsComponent.h">
+      <Filter>Header Files\ComponentEngine\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsComponent.h">
+      <Filter>Header Files\ComponentEngine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerGraphicsComponent.h">
+      <Filter>Header Files\ComponentEngine\Graphics</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -43,12 +76,6 @@
     </ClCompile>
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ComponentManager.cpp">
-      <Filter>Source Files\ComponentEngine</Filter>
-    </ClCompile>
-    <ClCompile Include="Entity.cpp">
-      <Filter>Source Files\ComponentEngine\Entity</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

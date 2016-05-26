@@ -15,7 +15,21 @@
 #include <string>
 #include <fstream>
 
+//components
+#include "GraphicsComponent.h"
+#include "PlayerGraphicsComponent.h"
+
+#include "InputComponent.h"
+#include "PlayerInputComponent.h"
+#include "DemoInputComponent.h"
+
+#include "PhysicsComponent.h"
+
+//View
+#include "Graphics.h"
+//World
+#include "World.h"
+
 #include "Entity.h"
-#include "ComponentManager.h"
 
 // TODO: reference additional headers your program requires here

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ComponentEngine">
+      <UniqueIdentifier>{bd32406c-8185-4cc4-bfe7-ec86efe047a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentEngine\Components">
+      <UniqueIdentifier>{a87da56a-337b-4829-b725-5a960628ca04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentEngine\Components\GraphicsComponent">
+      <UniqueIdentifier>{e10e1b35-aa39-4a41-a29c-0267613dddf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentEngine\Components\InputComponent">
+      <UniqueIdentifier>{1af1167d-81ad-49c9-89d1-28337cad44ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentEngine\Components\PhysicsComponent">
+      <UniqueIdentifier>{4cdcd0e2-1b1b-45bd-b27c-d5a7c36f8a4a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameObject.h">
+      <Filter>ComponentEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>ComponentEngine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsComponent.h">
+      <Filter>ComponentEngine\Components\GraphicsComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerGraphicsComponent.h">
+      <Filter>ComponentEngine\Components\GraphicsComponent</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+</Project>
