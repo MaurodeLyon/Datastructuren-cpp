@@ -145,6 +145,7 @@
     <ClInclude Include="Component.h" />
     <ClInclude Include="GameObject.h" />
     <ClInclude Include="GraphicsComponent.h" />
+    <ClInclude Include="InputComponent.h" />
     <ClInclude Include="PlayerGraphicsComponent.h" />
   </ItemGroup>
   <ItemGroup>

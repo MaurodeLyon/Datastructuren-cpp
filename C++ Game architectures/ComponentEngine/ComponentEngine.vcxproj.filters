@@ -30,6 +30,9 @@
     <ClInclude Include="PlayerGraphicsComponent.h">
       <Filter>ComponentEngine\Components\GraphicsComponent</Filter>
     </ClInclude>
+    <ClInclude Include="InputComponent.h">
+      <Filter>ComponentEngine\Components\InputComponent</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
